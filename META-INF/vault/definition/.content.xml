@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2018-12-05T20:43:46.443+05:30"
+    jcr:createdBy="admin"
+    jcr:description="UI content package for render"
+    jcr:lastModified="{Date}2018-12-05T20:43:46.443+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    group="render"
+    lastUnwrapped="{Date}2018-12-05T20:43:46.443+05:30"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2018-12-05T20:43:46.443+05:30"
+    lastWrappedBy="admin"
+    name="render.ui.content"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    version="1.0-SNAPSHOT">
+    <thumbnail.png/>
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/conf/render"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/render"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/dam/render"
+            rules="[]"/>
+    </filter>
+</jcr:root>
